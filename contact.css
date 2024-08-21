@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: dodgerblue;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+/* next */
+#comm1 {
+    display: flex;
+    /* margin-top: 50px; */
+    flex-wrap: wrap;
+}
+
+.boxi1 {
+    width: 100%;
+    /* border: 2px solid red; */
+    /* margin-left: 20px; */
+    background-color: rgb(244, 242, 242);
+    height: 50vh;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+
+
+.boxi1 h3 {
+    padding-left: 10px;
+    font-size: 1.9rem;
+}
+
+.boxi1 h5 {
+    padding-left: 10px;
+    /* margin-top: 0px; */
+    color: gray;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.social{
+    font-size: 1.4rem;
+    color: gray;
+}
+
+#Aboutt {
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+#footer img {
+    width: 5%;
+    height: 50%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+@media(max-width:568px) {
+    .boxi1 h3 {
+        font-size: 1.3rem;
+    }
+    .boxi1 h5 {
+        font-size: 1.0rem;
+    }
+    .social{
+        font-size: 1.0rem;
+    }
+    #footer img {
+        width: 10%;
+        height: 15%;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px;
+    }
+}

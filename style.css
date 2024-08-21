@@ -1,0 +1,521 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: dodgerblue;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding img {
+    width: 15%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transform: all 0.3s ease-in-out;
+    transform: all 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255);
+}
+
+/* next */
+/* next */
+#main {
+    display: flex;
+    /* margin-top: 126px; */
+    padding-top: 100px;
+}
+
+#main .imagew img {
+    width: 800px;
+    margin-top: -30px;
+
+}
+
+.wor {
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.wor h1 {
+    font-size: 2.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.wor span {
+    color: dodgerblue;
+}
+
+.wor h2 {
+    font-size: 2rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.wor p {
+    font-size: 1.2rem;
+    color: gray;
+    width: 93%;
+    padding-bottom: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.wor .b1 {
+    background-color: dodgerblue;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.wor .b1:hover {
+    background-color: rgb(91, 169, 247);
+    color: black;
+    cursor: pointer;
+}
+
+.wor .b2 {
+    background-color: rgba(222, 217, 217, 0.973);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.wor .b2:hover {
+    background-color: rgba(175, 172, 172, 0.973);
+    cursor: pointer;
+}
+
+.typeing {
+    color: black;
+    border-right: .15rem solid rgb(247, 247, 247);
+    /* font-size: 30rem; */
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 6s steps(20, end) infinite forwards;
+}
+
+/* next */
+#rec {
+    display: flex;
+}
+
+#rece h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: dodgerblue;
+}
+
+.d1 {
+    width: 100%;
+    /* border: 2px solid gray; */
+    box-shadow: 0 1px 4px 1px rgb(175, 173, 173);
+    border-radius: 5%;
+    margin-inline: 4%;
+}
+
+.d1 img {
+    width: 100%;
+    height: 25vh;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.d1 h5 {
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+
+.d1 h2 {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-top: -20px;
+    font-size: 1.4rem;
+}
+
+.d1 p {
+    padding-left: 15px;
+    margin-top: -10px;
+}
+
+.d1 button {
+    margin-left: 15px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    /* background-color: rgb(144, 7, 242); */
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    /* font-weight: bold; */
+    
+    margin-bottom: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+button a{
+    font-size: 20px;
+}
+.d1 button:hover{
+    background-color: rgb(70, 162, 253);
+}
+
+/* next */
+
+#footer {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+#footer img {
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#footer h1 {
+    font-size: 1rem;
+    padding-top: 30px;
+    font-size: 1.3rem;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+#footer p {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-size: 0.9rem;
+    padding-right: 780px;
+    color: rgb(102, 102, 102);
+}
+
+#footer svg {
+    margin-bottom: 100px;
+    margin-top: 30px;
+
+}
+
+/* next */
+#comm {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.boxi {
+    width: 48%;
+    /* border: 2px solid red; */
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(244, 242, 242);
+
+}
+
+.boxi p {
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 1.3rem;
+}
+
+.boxi h1 {
+    padding-left: 30px;
+    padding-right: 20px;
+    color: gray;
+    font-size: 4rem;
+    margin-bottom: -20px;
+    margin-top: 2px;
+}
+
+.boxi h3 {
+    padding-left: 50px;
+    font-size: 1.5rem;
+}
+
+.boxi h5 {
+    padding-left: 50px;
+    margin-top: 0px;
+    color: gray;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+/* next */
+.About{
+    color: dodgerblue;
+    text-align: center;
+    margin-top: 50px;
+}
+/* next */
+
+/* next */
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 100%;
+    }
+}
+
+/* next */
+@media(max-width:568px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        transform: translateY(-2px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: dodgerblue;
+        width: 100%;
+        align-items: center;
+        transform: 0.3s ease;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    /* next */
+    .imagew img {
+        display: none;
+    }
+
+    .wor h1 {
+        font-size: 1.9rem;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .wor {
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+
+    .wor span {
+        color: dodgerblue;
+    }
+
+    .wor h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .wor p {
+        font-size: 1.2rem;
+        text-align: center;
+        color: gray;
+        width: 93%;
+        padding-bottom: 10px;
+    }
+
+    .wor .b1 {
+        background-color: dodgerblue;
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 85px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+    }
+
+    /* next */
+    #rec {
+        flex-wrap: wrap;
+    }
+
+    .d1 {
+        margin-bottom: 20px;
+    }
+
+    /* next */
+    /* next */
+    #footer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #footer img {
+        width: 10%;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+    #footer h1 {
+        font-size: 1rem;
+        padding: 8px 10px;
+    }
+
+    #footer p {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 0.9rem;
+        color: rgb(102, 102, 102);
+        padding-right: 0px;
+    }
+
+    #footer svg {
+        margin-bottom: 100px;
+        margin-top: 0px;
+
+    }
+    /* next */
+    #comm {
+        display: flex;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .boxi {
+        width: 90%;
+        /* border: 2px solid red; */
+        /* margin-left: 20px; */
+        margin-bottom: 10px;
+        background-color: rgb(244, 242, 242);
+    
+    }
+    .About{
+        color: dodgerblue;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media (width: 768px) and (max-width: 1024px){
+    
+    #rec {
+        display: flex;
+        width: 100%;
+    }
+    #main .imagew img {
+       display: none;
+    
+    }
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        transform: translateY(-2px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: dodgerblue;
+        width: 100%;
+        align-items: center;
+        transform: 0.3s ease;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+    #footer svg {
+        display: none;
+
+    }
+    .boxi {
+        width: 100%;
+        /* border: 2px solid red; */
+        margin-left: 20px;
+        background-color: rgb(244, 242, 242);
+        margin-bottom: 50px;
+    }
+    #footer {
+        width: 100%;
+        display: none;
+        margin-top: 50px;
+    }
+}
