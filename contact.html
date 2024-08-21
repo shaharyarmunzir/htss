@@ -116,43 +116,7 @@
             </div>
         </div>
 </body>
-<script>
-    function validateForm() {
-    let valid = true;
+<script src="myscripts.js"></script>
 
-    // Clear previous errors
-    document.getElementById("nameError").innerHTML = "";
-    document.getElementById("emailError").innerHTML = "";
-    document.getElementById("messageError").innerHTML = "";
-
-    // Name validation
-    let name = document.getElementById("name").value;
-    if (name.trim() === "") {
-        document.getElementById("nameError").innerHTML = "Name is required.";
-        valid = false;
-    }
-
-    // Email validation
-    let email = document.getElementById("email").value;
-    let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-    if (email.trim() === "") {
-        document.getElementById("emailError").innerHTML = "Email is required.";
-        valid = false;
-    } else if (!emailPattern.test(email)) {
-        document.getElementById("emailError").innerHTML = "Please enter a valid email.";
-        valid = false;
-    }
-
-    // Message validation
-    let message = document.getElementById("message").value;
-    if (message.trim() === "") {
-        document.getElementById("messageError").innerHTML = "Message is required.";
-        valid = false;
-    }
-
-    return valid;
-}
-
-</script>
 
 </html>
